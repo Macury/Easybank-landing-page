@@ -102,6 +102,9 @@ nav {
   .request {
     display: block;
   }
+  .request:hover{
+    opacity: 70%;
+  }
   .hamburger {
     display: none;
   }
