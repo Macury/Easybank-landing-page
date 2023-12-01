@@ -23,8 +23,12 @@
             <!-- Logo -->
             <img src="./images/logo.svg" alt="Logo" />
             <!-- Hamburger -->
-            <button class="hamburger" type="button">
-              <img src="./images/icon-hamburger.svg" alt="Hamburger" />
+            <button class="hamburger" onclick="toggleHamburger()" type="button">
+              <img
+                id="menu_icon"
+                src="./images/icon-hamburger.svg"
+                alt="Hamburger"
+              />
             </button>
             <!-- links -->
             <div class="links">
@@ -39,7 +43,7 @@
         </div>
       </nav>
       <!-- Mobile navigation -->
-      <div id="mobilenav">
+      <div id="mobile_nav">
         <div class="mobile-links">
           <a href="#">Home</a>
           <a href="#">About</a>
@@ -140,5 +144,22 @@
       Coded by <a href="#">Your Name Here</a>.
     </div> -->
     </main>
+    <script>
+      // Mobile navigation setup
+      const mobile_nav = document.getElementById("mobile_nav");
+      const menu_icon = document.getElementById("menu_icon");
+
+      mobile_nav.style.display = "none";
+
+      function toggleHamburger() {
+        if (mobile_nav.style.display == "none") {
+          mobile_nav.style.display = "block";
+          menu_icon.setAttribute("src", "./images/icon-close.svg");
+        } else {
+          mobile_nav.style.display = "none";
+          menu_icon.setAttribute("src", "./images/icon-hamburger.svg");
+        }
+      }
+    </script>
   </body>
 </html>
