@@ -22,6 +22,7 @@
           <div class="nav">
             <!-- Logo -->
             <img src="./images/logo.svg" alt="Logo" />
+
             <!-- Hamburger -->
             <button class="hamburger" onclick="toggleHamburger()" type="button">
               <img
@@ -30,6 +31,7 @@
                 alt="Hamburger"
               />
             </button>
+
             <!-- links -->
             <div class="links">
               <a href="#">Home</a>
@@ -42,6 +44,7 @@
           </div>
         </div>
       </nav>
+
       <!-- Mobile navigation -->
       <div id="mobile_nav">
         <div class="mobile-links">
@@ -52,18 +55,30 @@
           <a href="#">Careers</a>
         </div>
       </div>
-      <!-- <h1>Next generation digital banking</h1>
-  
-    <p>
-      Take your financial life online. Your Easybank account will be a one-stop-shop
-      for spending, saving, budgeting, investing, and much more.
-    </p>
-  
-    <button type="button">Request Invite</button>
-  
-  
-  
-    <h2>Why choose Easybank?</h2>
+
+      <!-- First article -->
+      <article>
+        <div class="article-one">
+          <div class="image-container">
+            <img class="mockup" src="./images/image-mockups.png" alt="image" />
+          </div>
+          <div class="wrapper">
+            <div class="content">
+              <h1>Next generation digital banking</h1>
+              <p>
+                Take your financial life online. Your Easybank account will be a
+                one-stop-shop for spending, saving, budgeting, investing, and
+                much more.
+              </p>
+              <button class="request-inner" type="button">
+                Request Invite
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!--      <h2>Why choose Easybank?</h2>
   
     <p>
       We leverage Open Banking to turn your bank account into your financial hub. Control
@@ -144,8 +159,9 @@
       Coded by <a href="#">Your Name Here</a>.
     </div> -->
     </main>
+
+    <!-- Mobile navigation setup -->
     <script>
-      // Mobile navigation setup
       const mobile_nav = document.getElementById("mobile_nav");
       const menu_icon = document.getElementById("menu_icon");
 
