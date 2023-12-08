@@ -7,6 +7,7 @@
 }
 body {
   background-color: hsl(0, 0%, 98%);
+  color: hsl(233, 8%, 62%);
   font-size: 18px;
   font-family: "Public Sans", sans-serif;
   font-weight: 300;
@@ -40,9 +41,9 @@ a {
 /* nav adjustments */
 nav {
   position: fixed;
-    background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
   width: 100%;
-    z-index: 1;
+  z-index: 1;
 }
 .wrapper {
   max-width: 1280px;
@@ -89,7 +90,7 @@ nav {
   background-image: url(./images/bg-intro-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 .mockup {
   width: 100%;
   margin-top: -35px;
@@ -97,6 +98,9 @@ nav {
 .content {
   text-align: center;
   width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h1 {
   color: hsl(233, 26%, 24%);
@@ -104,11 +108,42 @@ h1 {
   font-size: 36px;
   max-width: 300px;
 }
+h2 {
+  font-size: 30px;
+}
+h2,
+h3 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 400;
+}
 .content p {
   line-height: 1.5;
-  color: hsl(233, 8%, 62%);
   margin: 20px 0;
   max-width: 450px;
+}
+
+.article-two {
+  background-color: hsl(220, 16%, 96%);
+  width: 100%;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px 0;
+  text-align: center;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 25px;
+}
+.sections h3 {
+  margin-top: 20px;
+}
+header p,
+.sections p {
+  max-width: 450px;
+  margin: 20px auto;
 }
 
 /* Larger screens */
@@ -150,18 +185,39 @@ h1 {
   }
 
   /* Content */
+
   .article-one {
     flex-direction: row-reverse;
   }
-  .image-container{
+  .image-container {
     background-image: url(./images/bg-intro-desktop.svg);
-    }
-  .mockup{
+  }
+  .mockup {
+    margin-top: 0;
     margin-right: -30px;
   }
-  .content{
+  .content {
+    display: block;
     text-align: left;
     padding-left: 5%;
+  }
+
+  .article-two {
+    margin-top: -70px;
+    padding: 70px 50px;
+    text-align: left;
+  }
+  .article-two p {
+    max-width: initial;
+  }
+  header p {
+    margin: 20px 0;
+  }
+  header span{
+    display: block;
+  }
+  .sections {
+    flex-direction: row;
   }
 }
 
