@@ -159,6 +159,10 @@ h1 {
   .mockup{
     margin-right: -30px;
   }
+  .content{
+    text-align: left;
+    padding-left: 5%;
+  }
 }
 
 /* attribution */
