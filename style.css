@@ -300,7 +300,7 @@ div.logo > svg > g > path {
   .sections {
     flex-direction: row;
   }
-  .footer{
+  .footer {
     padding: 40px 0;
   }
   .footer-w {
@@ -313,9 +313,23 @@ div.logo > svg > g > path {
     justify-content: space-between;
     width: 50%;
   }
+  .footer-links {
+    align-items: flex-start;
+  }
+  div.socials svg path:hover,
+  .latest h4:hover,
+  .footer-links a:hover {
+    transition: 5ms;
+    fill: hsl(136, 65%, 51%);
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+  }
   .right {
     margin: 0;
     gap: 20px;
+  }
+  .logo-and-socials {
+    gap: 45px;
   }
 }
 
