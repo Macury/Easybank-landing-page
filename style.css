@@ -177,6 +177,10 @@ figcaption {
   margin: 0;
 }
 
+footer{
+  background-color: hsl(233, 26%, 24%);
+
+}
 .footer {
   width: 100%;
   background-color: hsl(233, 26%, 24%);
@@ -202,7 +206,7 @@ figcaption {
   justify-content: inherit;
   gap: inherit;
 }
-div.logo > svg > g > path {
+.logo svg > g > path {
   fill: hsl(0, 0%, 100%);
 }
 .socials {
@@ -316,7 +320,7 @@ div.logo > svg > g > path {
   .footer-links {
     align-items: flex-start;
   }
-  div.socials svg path:hover,
+  .socials svg path:hover,
   .latest h4:hover,
   .footer-links a:hover {
     transition: 5ms;
@@ -335,10 +339,10 @@ div.logo > svg > g > path {
 
 /* attribution */
 .attribution {
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   color: hsl(192, 70%, 51%);
 }
 .attribution a {
-  color: hsl(233, 26%, 24%);
+  color: hsl(136, 65%, 51%);
 }
