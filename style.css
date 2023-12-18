@@ -335,9 +335,10 @@ div.logo > svg > g > path {
 
 /* attribution */
 .attribution {
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
+  color: hsl(192, 70%, 51%);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(233, 26%, 24%);
 }

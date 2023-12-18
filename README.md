@@ -31,20 +31,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Macury/Easybank-landing-page)
-- Live Site URL: [Add live site URL here](https://macury.github.io/Easybank-landing-page/)
+- Solution URL: [Solution URL](https://github.com/Macury/Easybank-landing-page)
+- Live Site URL: [Live site URL](https://macury.github.io/Easybank-landing-page/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
 ## Author
 
 - Frontend Mentor - [@Macury](https://www.frontendmentor.io/profile/Macury)
